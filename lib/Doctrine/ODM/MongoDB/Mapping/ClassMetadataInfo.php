@@ -1517,7 +1517,7 @@ class ClassMetadataInfo implements \Doctrine\Common\Persistence\Mapping\ClassMet
 
     public function getTypeOfField($fieldName)
     {
-        throw new \BadMethodCallException(__METHOD__.'($fieldName) is not implemented yet.');
+        //throw new \BadMethodCallException(__METHOD__.'($fieldName) is not implemented yet.');
     }
 
     public function getAssociationTargetClass($assocName)
